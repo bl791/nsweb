@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspeak</title>
+    <script src="https://cdn.jsdelivr.net/gh/fakerybakery/ripple.js/r-disabled.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Onest', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+        }
+
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            text-align: left;
+            padding: 15px 25px;
+            display: flex;
+            align-items: center;
+        }
+
+        .spacer {
+            flex-grow: 1;
+        }
+
+        .download-nav {
+            background: #D10000;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 15px;
+        }
+
+        .header {
+            padding: 50px 20px;
+            background: #D10000;
+            color: white;
+            margin: 10px 30px;
+            border-radius: 15px;
+        }
+
+        .mc {
+            max-width: 768px;
+            margin: auto;
+        }
+
+        .header h1 {
+            font-size: 35pt;
+        }
+        .header h2 {
+            font-size: 20pt;
+            font-weight: 500;
+        }
+
+        .about {
+            padding: 10px 35px;
+        }
+
+        .features {
+            padding: 10px 15px;
+            margin: 10px 30px;
+            border-radius: 15px;
+            background: #FFE3E3;
+        }
+
+        .column > div, .columntwo > div {
+            padding: 1rem;
+        }
+
+        nav {
+            background: rgba(255, 255, 255, 0.75);
+            -moz-backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+            position: sticky;
+            top: 0;
+        }
+
+        nav .title {
+            font-weight: bold;
+            font-size: 15pt;
+        }
+
+        .footer {
+            background: #282828;
+            padding: 10px 25px;
+            color: white;
+        }
+
+        .footer .copyright {
+            color: #C7C7C7;
+            font-size: 10pt;
+        }
+
+        .nv-spacer {
+            padding: 10px 0;
+        }
+
+        .download {
+            background: white;
+            color: #D10000;
+            display: inline-block;
+            text-decoration: none;
+            padding: 15px 35px;
+            border-radius: 15px;
+            font-size: 13pt;
+        }
+
+        @media (min-width: 768px) {
+            .columntwo {
+                display: grid;
+                grid-auto-rows: 1fr;
+                grid-template-columns: 1fr 1fr;
+            }
+            .column {
+                display: grid;
+                grid-auto-rows: 1fr;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <span class="title">Newspeak</span>
+        <span class="spacer"></span>
+        <a href="https://apps.apple.com/us/app/newspeak-language-improvement/id1670782599" class="download-nav" ripple>Download</a>
+    </nav>
+    <div class="nv-spacer"></div>
+    <div class="mc">
+        <div class="header">
+            <h1>Break free from the habit of profanity.</h1>
+            <a href="https://apps.apple.com/us/app/newspeak-language-improvement/id1670782599" class="download" ripple>Download</a>
+        </div>
+    </div>
+    <div class="about mc">
+        <h1>About</h1>
+        <p>Want to stop saying certain words? Use Newspeak, which counts and beeps each time you say a word you don't want to say!</p>
+        <p>Newspeak helps you gain awareness of your speaking habits, so you can make the changes you want. When Newspeak is on, you'll hear a beep whenever the program hears a word from your block-list. It also keeps track of how many times you say a word from your blocklist.</p>
+    </div>
+    <div class="mc">
+        <div class="features">
+            <div class="column">
+                <div>
+                    <h2>Private</h2>
+                    <p>No audio transcripts are ever sent to us, and we use the built-in speech recognition system on your phone.</p>
+                </div>
+                <div>
+                    <h2>Free</h2>
+                    <p>Newspeak is completely free, with no in-app purchases and no ads!</p>
+                </div>
+                <div>
+                    <h2>Intuitive</h2>
+                    <p>Newspeak revolves around a central dashboard, an all-in-one overview of your words.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about mc">
+        <h1>Features</h1>
+        <div class="columntwo">
+            <div>
+                <h2>Blocklists</h2>
+                <p>Use Newspeak's presets (swear words/offensive words) or easily create custom word lists!</p>
+            </div>
+            <div>
+                <h2>Friend Mode</h2>
+                <p>Prank your friends by putting Newspeak into Friend Mode! When Friend Mode is on, your phone will appear to be asleep, but will beep when your friend says a word from your blocklist.</p>
+            </div>
+        </div>
+    </div>
+    <div class="nv-spacer"></div>
+    <div class="footer">
+        <div class="mc">
+            <h2>Newspeak</h2>
+            <p>Break free from the habit of profanity.</p>
+            <p class="copyright">Copyright 2023. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
